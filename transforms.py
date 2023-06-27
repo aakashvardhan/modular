@@ -45,6 +45,3 @@ class CustomResnetTransforms:
                     ToTensorV2(),
                 ]
             )
-
-    def __call__(self, img):
-        return self.transformations(image=np.array(img))["image"]
