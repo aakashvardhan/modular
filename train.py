@@ -1,5 +1,5 @@
 from tqdm import tqdm
-
+import torch
 train_losses = []
 test_losses = []
 train_acc = []
