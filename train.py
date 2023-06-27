@@ -1,5 +1,5 @@
 from tqdm import tqdm
-
+from utils import get_lr
 train_losses = []
 test_losses = []
 train_acc = []
